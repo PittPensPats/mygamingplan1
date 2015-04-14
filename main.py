@@ -30,8 +30,7 @@ class MainHandler(webapp2.RequestHandler):
 	  if user:
         render_template(self, 'index.html', {})
 	  else:
-	    self.response.out.write('<html><body><a href="%s">Sign in or register.</a></body></html>' %
-                        users.create_login_url('/')) 
+	    self.response.out.write('<html><body><a href="%s">Sign in or register.</a></body></html>' % users.create_login_url('/')) 
 	    
 
 app = webapp2.WSGIApplication([
