@@ -57,4 +57,4 @@ class MyHandler(webapp2.RequestHandler):
 
         self.response.out.write("<html><body>%s</body></html>" % greeting)
 
-application = webapp2.WSGIApplication([('/', MyHandler),], debug=True)
+app = webapp2.WSGIApplication([('/', MyHandler),], debug=True)
