@@ -1,0 +1,25 @@
+body {
+	background-color: #BDE6F2;
+}
+h1{
+	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+}
+#header {
+    text-align:left;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    float:right;
+    padding:10px;	 	 
+}
+#footer {
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
